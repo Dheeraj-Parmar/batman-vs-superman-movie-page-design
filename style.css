@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image1 {
+    background-image: url("batvssup.jpg");
+}
+
+.image1 , .image2 , .image3 {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.imageText {
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+
+.section {
+    padding: 20px 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.sectionText {
+    background: #282e34;
+    color: #ddd;
+}
+
+.image2 {
+    background-image: url("batman1.jpg");
+}
+
+.image3 {
+    background-image: url("superman3.jpg");
+}
+
+h2 {
+    margin-bottom: 10px;
+}
